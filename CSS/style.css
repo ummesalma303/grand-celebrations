@@ -104,3 +104,78 @@
    width: 300px;
 }
 /* welcome section code ends */
+/* address code start */
+.address-container{
+    text-align: center;
+    margin: 100px 0;
+}
+.address-container h3{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 46px;
+    text-transform: capitalize;
+}
+.address-container span{
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 0, 0);
+}
+/* address code ends */
+/* offer code start */
+.offer-container{
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1220px;
+    margin: 0 auto;
+    gap: 40px;
+}
+.offer-left-side-content{
+    max-width: 30%;
+}
+.offer-left-side-content h4{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.offer-left-side-content h2{
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.offer-left-side-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.offer-img{
+    border: 10px solid red;
+    border-radius: 50%;
+}
+.offer-img img{
+    margin: 25px;
+}
+.offer-righr-side-content h2{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+}
+.offer-righr-side-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+/* offer code ends */
