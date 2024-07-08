@@ -4,3 +4,28 @@
     box-sizing: border-box;
     font-family: "Merriweather", serif;
 }
+.header-container{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.616),rgba(0, 0, 0, 0.267)), url(../assets/images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1220px;
+    height: 90vh;
+    margin: 30px auto;
+    border-radius: 10px;
+    color: #fff;
+}
+.header-content{
+   text-align: center;
+   padding: 150px 0;
+}
+.header-content h2{
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 95px;
+}
+.header-content h4{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+}
