@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: "Merriweather", serif;
 }
+
+/* .inter{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+} */
 .header-container{
     background-image:linear-gradient(rgba(0, 0, 0, 0.616),rgba(0, 0, 0, 0.267)), url(../assets/images/Banner\ Image.png);
     background-repeat: no-repeat;
@@ -29,3 +34,73 @@
     font-weight: 400;
     line-height: 40px;
 }
+/* 65% section start */
+.second-container{
+    width: 700px;
+    margin: 90px auto;
+    text-align: center;
+}
+.second-content h2{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 97px;
+}
+.second-content p{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.second-content h3{
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 58px;
+}
+.second-img img{
+    width: 600px;
+}
+/* 65% section ends */
+/* welcome section code start */
+.welcome-container{
+    background-image:linear-gradient(to right,rgba(0, 0, 0, 0.932),rgba(0, 0, 0, 0.267)), url(../assets/images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1220px;
+    height: 500px;
+    margin: 0 auto 50px auto;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding: 0 100px;
+}
+.welcome-cotent h2{
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 62px;
+    letter-spacing: 11%;
+}
+.welcome-cotent p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 20px 0 30px 0;
+}
+.welcome-cotent span{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+.welcome-img img{
+   width: 300px;
+}
+/* welcome section code ends */
