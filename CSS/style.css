@@ -266,3 +266,53 @@
     width: 380px;
 }
 /* portfolio code ends */
+/* subscribe form code start */
+.subscribe-container{
+    max-width: 740px;
+    text-align: center;
+    margin: 0 auto 60px auto;
+}
+.subscribe-content h2{
+    font-size: 38px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+.subscribe-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.email-form{
+    margin: 10px 0;
+}
+.input-btn-parent{
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.input-btn-parent input{
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+}
+.subscribe-btn{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+.subscribe-btn button{
+   padding: 16px 18px;
+   border-radius: 0 50px 50px 0;
+   border: none;
+   color: rgb(255, 255, 255);
+   background-color: rgb(255, 0, 0);
+}
+
+/* subscribe form code ends */
