@@ -124,8 +124,6 @@
 /* offer code start */
 .offer-container{
     display: flex;
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr); */
     justify-content: space-between;
     align-items: center;
     max-width: 1220px;
@@ -179,3 +177,56 @@
     margin-bottom: 20px;
 }
 /* offer code ends */
+/* holidays code start */
+.holidays-title{
+    max-width: 700px;
+    margin: 70px auto 40px auto;
+    text-align: center;
+}
+.holidays-title h4{
+    color: rgb(7, 2, 17);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.holidays-title h2{
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 71px;
+}
+.holidays-title p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.red-colour{
+    position: relative;
+    bottom: 0;
+}
+.red-colour img{
+    width: 100%;
+    margin-top: 340px;
+ } 
+.gift-discount-container{
+    max-width: 1220px;
+    margin: 0 auto;
+ }
+.gift-img{
+    position: absolute;
+    bottom: 50px;
+} 
+.gift-img img {
+    width: 650px;
+}
+.discount-img{
+    position: absolute;
+    right: 80px;
+    bottom: 300px;
+}
+.discount-img img{
+    width: 250px;
+}
+/* holidays code ends */
